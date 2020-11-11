@@ -1,9 +1,21 @@
 package view;
 
+import java.io.IOException;
+
+import controller.ArquivosController;
+import controller.IArquivosController;
+
 public class Principal {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
+		IArquivosController arquivosCont = new ArquivosController();
+
+		try {
+			arquivosCont.verificaDirTemp();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 
 	}
 
