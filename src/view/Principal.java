@@ -11,10 +11,10 @@ public class Principal {
 
 	public static void main(String[] args) {
 
-		// Códigos contidos no arquivo CSV - 100-101-102-103
+		// Códigos contidos no arquivo CSV - 100-101-102-103-321
 
 		IArquivosController arquivosCont = new ArquivosController();
-		String nomeArquivo = "arquivo.csv";
+		String nomeArquivo = "C:\\Temp\\arquivo.csv";
 		int codigo;
 		String nome, email;
 		int opcao = 0;
